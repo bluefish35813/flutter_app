@@ -589,7 +589,7 @@ class FourrPage extends StatelessWidget {
           text: new TextSpan(
             children: [
               new TextSpan(
-                text: 'The Climate Group strives to drive climate action by'
+                text: 'The Climate Group strives to drive climate action by '
                     'working with organizations to decrease carbon emissions.\n'
                     'Link: ',
                 style: new TextStyle(color: Colors.black,fontSize:20),
@@ -710,7 +710,7 @@ class SevennPage extends StatelessWidget {
           text: new TextSpan(
             children: [
               new TextSpan(
-                text: 'The Environmental Defense Fund is a nonprofit organization'
+                text: 'The Environmental Defense Fund is a nonprofit organization '
                     'that aims to preserve the environment.\n'
                     'Link: ',
                 style: new TextStyle(color: Colors.black,fontSize:20),
