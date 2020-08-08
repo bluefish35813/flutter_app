@@ -1,16 +1,3 @@
 # flutter_app
 
-A new Flutter application.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This is a flutter application that I created using flutter in android studio. This application shows ways for any person to try to reduce climate change. It includes tips to help a person reduce their emissions as well as provides organizations to donate to that are fighting climate change. This app also has a calcuator to find the CO2 emissions from the car that is driven based on miles driven and miles per gallon of the car. 
