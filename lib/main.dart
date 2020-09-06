@@ -76,77 +76,69 @@ Future navigateToSubSubPage(context) async {
 }
 
 functionOne(context) {
-  navigateToOnePage(context);
+  navigateToFirstPage(context);
 }
 
 functionTwo(context) {
-  navigateToTwoPage(context);
+  navigateToSecondPage(context);
 }
 
 final List<Function(BuildContext context)> ontaps = [
   functionOne,
   functionTwo
-  /*functionThree,
-  functionFour,
-  functionFive,
-  functionSix,
-  functionSeven,
-  functionEight,
-  functionNine,
-  functionTen*/
 ];
 
-functionOnee(context) {
-  navigateToOneePage(context);
+functionThird(context) {
+  navigateToThirdPage(context);
 }
 
-functionTwoo(context) {
-  navigateToTwooPage(context);
+functionFourth(context) {
+  navigateToFourthPage(context);
 }
 
-functionThreee(context) {
-  navigateToThreeePage(context);
+functionFifth(context) {
+  navigateToFifthPage(context);
 }
 
-functionFourr(context) {
-  navigateToFourrPage(context);
+functionSixth(context) {
+  navigateToSixthPage(context);
 }
 
-functionFivee(context) {
-  navigateToFiveePage(context);
+functionSeventh(context) {
+  navigateToSeventhPage(context);
 }
 
-functionSixx(context) {
-  navigateToSixxPage(context);
+functionEighth(context) {
+  navigateToEighthPage(context);
 }
 
-functionSevenn(context) {
-  navigateToSevennPage(context);
+functionNinth(context) {
+  navigateToNinthPage(context);
 }
 
-functionEightt(context) {
-  navigateToEighttPage(context);
+functionTenth(context) {
+  navigateToTenthPage(context);
 }
 
-functionNinee(context) {
-  navigateToNineePage(context);
+functionEleventh(context) {
+  navigateToEleventhPage(context);
 }
 
-functionTenn(context) {
-  navigateToTennPage(context);
+functionTwelfth(context) {
+  navigateToTwelfthPage(context);
 }
 
 final List<Function(BuildContext context)> ontapss = [
-  functionOnee,
-  functionTwoo,
-  functionThreee,
-  functionFourr,
-  functionFivee,
-  functionSixx,
-  functionSevenn,
-  functionEightt,
-  functionNinee,
-  functionTenn
+  functionThird,
+  functionFourth,
+  functionFifth,
+  functionSixth,
+  functionSeventh,
+  functionEighth,
+  functionNinth,
+  functionTenth,
+  functionEleventh,
+  functionTwelfth
 ];
 
 
@@ -213,55 +205,55 @@ class SubSubPage extends StatelessWidget {
   }
 }
 
-Future navigateToOnePage(context) async {
-  Navigator.push(context, MaterialPageRoute(builder: (context) => OnePage()));
+Future navigateToFirstPage(context) async {
+  Navigator.push(context, MaterialPageRoute(builder: (context) => FirstPage()));
 }
 
-Future navigateToTwoPage(context) async {
-  Navigator.push(context, MaterialPageRoute(builder: (context) => TwoPage()));
+Future navigateToSecondPage(context) async {
+  Navigator.push(context, MaterialPageRoute(builder: (context) => SecondPage()));
 }
 
-Future navigateToOneePage(context) async {
-  Navigator.push(context, MaterialPageRoute(builder: (context) => OneePage()));
+Future navigateToThirdPage(context) async {
+  Navigator.push(context, MaterialPageRoute(builder: (context) => ThirdPage()));
 }
 
-Future navigateToTwooPage(context) async {
-  Navigator.push(context, MaterialPageRoute(builder: (context) => TwooPage()));
+Future navigateToFourthPage(context) async {
+  Navigator.push(context, MaterialPageRoute(builder: (context) => FourthPage()));
 }
 
-Future navigateToThreeePage(context) async {
-  Navigator.push(context, MaterialPageRoute(builder: (context) => ThreeePage()));
+Future navigateToFifthPage(context) async {
+  Navigator.push(context, MaterialPageRoute(builder: (context) => FifthPage()));
 }
 
-Future navigateToFourrPage(context) async {
-  Navigator.push(context, MaterialPageRoute(builder: (context) => FourrPage()));
+Future navigateToSixthPage(context) async {
+  Navigator.push(context, MaterialPageRoute(builder: (context) => SixthPage()));
 }
 
-Future navigateToFiveePage(context) async {
-  Navigator.push(context, MaterialPageRoute(builder: (context) => FiveePage()));
+Future navigateToSeventhPage(context) async {
+  Navigator.push(context, MaterialPageRoute(builder: (context) => SeventhPage()));
 }
 
-Future navigateToSixxPage(context) async {
-  Navigator.push(context, MaterialPageRoute(builder: (context) => SixxPage()));
+Future navigateToEighthPage(context) async {
+  Navigator.push(context, MaterialPageRoute(builder: (context) => EighthPage()));
 }
 
-Future navigateToSevennPage(context) async {
-  Navigator.push(context, MaterialPageRoute(builder: (context) => SevennPage()));
+Future navigateToNinthPage(context) async {
+  Navigator.push(context, MaterialPageRoute(builder: (context) => NinthPage()));
 }
 
-Future navigateToEighttPage(context) async {
-  Navigator.push(context, MaterialPageRoute(builder: (context) => EighttPage()));
+Future navigateToTenthPage(context) async {
+  Navigator.push(context, MaterialPageRoute(builder: (context) => TenthPage()));
 }
 
-Future navigateToNineePage(context) async {
-  Navigator.push(context, MaterialPageRoute(builder: (context) => NineePage()));
+Future navigateToEleventhPage(context) async {
+  Navigator.push(context, MaterialPageRoute(builder: (context) => EleventhPage()));
 }
 
-Future navigateToTennPage(context) async {
-  Navigator.push(context, MaterialPageRoute(builder: (context) => TennPage()));
+Future navigateToTwelfthPage(context) async {
+  Navigator.push(context, MaterialPageRoute(builder: (context) => TwelfthPage()));
 }
 
-class OnePage extends StatelessWidget {
+class FirstPage extends StatelessWidget {
   TextEditingController myController = TextEditingController();
   TextEditingController myControllerone = TextEditingController();
   TextEditingController thirdController = TextEditingController();
@@ -336,7 +328,7 @@ class OnePage extends StatelessWidget {
   }
 }
 
-class TwoPage extends StatelessWidget {
+class SecondPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -349,111 +341,8 @@ class TwoPage extends StatelessWidget {
   }
 }
 
-/*class ThreePage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Information about three...'),
-        backgroundColor: Colors.blueAccent,
-      ),
 
-    );
-  }
-}
-
-class FourPage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Information about four...'),
-        backgroundColor: Colors.blueAccent,
-      ),
-
-    );
-  }
-}
-
-class FivePage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Information about five...'),
-        backgroundColor: Colors.blueAccent,
-      ),
-
-    );
-  }
-}
-
-class SixPage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Information about six...'),
-        backgroundColor: Colors.blueAccent,
-      ),
-
-    );
-  }
-}
-
-class SevenPage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Information about seven...'),
-        backgroundColor: Colors.blueAccent,
-      ),
-
-    );
-  }
-}
-
-class EightPage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Information about eight...'),
-        backgroundColor: Colors.blueAccent,
-      ),
-
-    );
-  }
-}
-
-class NinePage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Information about nine...'),
-        backgroundColor: Colors.blueAccent,
-      ),
-
-    );
-  }
-}
-
-class TenPage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Information about ten...'),
-        backgroundColor: Colors.blueAccent,
-      ),
-
-    );
-  }
-}*/
-
-class OneePage extends StatelessWidget {
+class ThirdPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     String url = '350.org';
@@ -493,7 +382,7 @@ class OneePage extends StatelessWidget {
   }
 }
 
-class TwooPage extends StatelessWidget {
+class FourthPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     String url = 'https://www.nrdc.org/';
@@ -533,7 +422,7 @@ class TwooPage extends StatelessWidget {
   }
 }
 
-class ThreeePage extends StatelessWidget {
+class FifthPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     String url = 'https://www.ucsusa.org/';
@@ -575,7 +464,7 @@ class ThreeePage extends StatelessWidget {
   }
 }
 
-class FourrPage extends StatelessWidget {
+class SixthPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     String url = 'https://www.theclimategroup.org/';
@@ -615,7 +504,7 @@ class FourrPage extends StatelessWidget {
   }
 }
 
-class FiveePage extends StatelessWidget {
+class SeventhPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     String url = 'https://www.foei.org/';
@@ -656,7 +545,7 @@ class FiveePage extends StatelessWidget {
   }
 }
 
-class SixxPage extends StatelessWidget {
+class EighthPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     String url = 'https://www.greenpeace.org/international/';
@@ -696,7 +585,7 @@ class SixxPage extends StatelessWidget {
   }
 }
 
-class SevennPage extends StatelessWidget {
+class NinthPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     String url = 'https://www.edf.org/';
@@ -736,12 +625,12 @@ class SevennPage extends StatelessWidget {
   }
 }
 
-class EighttPage extends StatelessWidget {
+class TenthPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Information about eightt...'),
+        title: Text('Information about Tenth...'),
         backgroundColor: Colors.blueAccent,
       ),
 
@@ -749,12 +638,12 @@ class EighttPage extends StatelessWidget {
   }
 }
 
-class NineePage extends StatelessWidget {
+class EleventhPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Information about ninee...'),
+        title: Text('Information about Eleventh...'),
         backgroundColor: Colors.blueAccent,
       ),
 
@@ -762,12 +651,12 @@ class NineePage extends StatelessWidget {
   }
 }
 
-class TennPage extends StatelessWidget {
+class TwelfthPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Information about tenn...'),
+        title: Text('Information about Twelfth...'),
         backgroundColor: Colors.blueAccent,
       ),
 
