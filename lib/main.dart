@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/navigator.dart';
@@ -29,38 +30,24 @@ class MainPage extends StatelessWidget {
           child: Column(
             mainAxisSize: MainAxisSize.max,
             children: <Widget>[
-              new GestureDetector(
-                onTap: () {
-                  navigateToSubPage(context);
-                },
-                child: Container(
-                  color: Colors.green,
-                  height: height * 0.445,
-                  child: new Text("Reducing Your Carbon Footprint",
-                    style: TextStyle(
-                      fontSize: 25.0,
-                      color: Colors.white,
-                    ),
-                  ),
-                  alignment: Alignment(0.0, 0.0),
-                ),
-              ),
-              new GestureDetector(
-                onTap: () {
-                  navigateToSubSubPage(context);
-                },
-                child: Container(
-                  color: Colors.lightGreen,
-                  height: height * 0.445,
-                  child: new Text("Find Organizations to Donate To",
-                    style: TextStyle(
-                      fontSize: 25.0,
-                      color: Colors.white,
-                    ),
-                  ),
-                  alignment: Alignment(0.0, 0.0),
-                ),
-              ),
+              Container(
+                  padding: EdgeInsets.fromLTRB(10, 225, 10, 10),
+                  child: RaisedButton(
+                    textColor: Colors.white,
+                    padding: const EdgeInsets.all(20.0),
+                    color: Colors.blue,
+                    onPressed: () {navigateToSubPage(context);},
+                    child: Text('Find Ways to Reduce Your Carbon Footprint',style: TextStyle(fontSize: 20)),
+                  )),
+              Container(
+                  padding: EdgeInsets.fromLTRB(10, 20, 10, 10),
+                  child: RaisedButton(
+                    textColor: Colors.white,
+                    padding: const EdgeInsets.all(20.0),
+                    color: Colors.blue,
+                    onPressed: () {navigateToSubSubPage(context);},
+                    child: Text('Find Organizations to Donate To', style: TextStyle(fontSize: 20)),
+                  )),
             ],
           ),
         )
